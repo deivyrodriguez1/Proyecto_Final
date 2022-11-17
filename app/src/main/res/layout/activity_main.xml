@@ -9,19 +9,29 @@
 
     <ImageView
         android:id="@+id/foto"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="412dp"
+        android:layout_height="312dp"
         app:srcCompat="@drawable/foto_vehiculo"
+        tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="0dp"
-        tools:ignore="MissingConstraints" />
+        tools:layout_editor_absoluteY="76dp"
+        android:contentDescription="@string/foto_pricipal"/>
 
     <Button
         android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Ingresar"
-        tools:layout_editor_absoluteX="166dp"
-        tools:layout_editor_absoluteY="560dp"
-        tools:ignore="MissingConstraints" />
+        android:text="@string/btn_principal"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="151dp"
+        tools:layout_editor_absoluteY="484dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/titulo_principal"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="127dp"
+        tools:layout_editor_absoluteY="51dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
